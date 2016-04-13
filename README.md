@@ -105,6 +105,12 @@ JeeSite 提供了常用工具进行封装，包括日志工具、缓存工具、
 5. 运行bin\run-tomcat7.bat或bin\run-jetty.bat，启动Web服务器（第一次运行，需要下载依赖jar包，请耐心等待）。
 6. 最高管理员账号，用户名：thinkgem 密码：admin
 
+ps:
+1、我是基于mysql搭建的环境，原来的数据和表结构有的对应不上，做了一点改动，创建好数据库后可以直接倒入sys目录下的jeesite_mysql.sql
+2、系统数据库密码改为root
+3、此时1.0.0版本搭建完成
+
+
 ## 常见问题
 
 1. 有时出现文字乱码：修改Tomcat的server.xml文件的Connector项，增加URIEncoding="UTF-8"
@@ -153,6 +159,6 @@ Hibernate性能上定不是问题。但对于大多数情况下，真正掌握Hi
 数据库的支持，但对于支持其它数据库的改动也不是很麻烦，SQL是被专门写在XML中，对于大多数SQL来说都是通用的，
 对于不同的数据库可通过dbName区分和修改各别的SQL片段即可。
 
-上述纯属个人观点，欢迎指正（thinkgem@163.com）。
+上述纯属个人观点，欢迎指正（290315636@qq.com）。
 
 如果你仍然喜欢Hibernate，请点击[下载JeeSite Hibernate版本](https://github.com/thinkgem/jeesite/tree/master_hibernate)。
